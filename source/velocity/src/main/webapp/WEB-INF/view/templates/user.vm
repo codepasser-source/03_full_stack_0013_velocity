@@ -1,0 +1,6 @@
+<div>user vm</div>
+<hr/>
+
+#foreach($info in $users)
+$info.id
+#end
